@@ -1,0 +1,66 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f0a1f0, #a1c4fd, #f9c7f9);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+.title {
+    color: #6c63ff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.input-field,
+.dropdown {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.convert-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.convert-button:hover {
+    background-color: #5848c2;
+}
+
+.result-title {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.result-output {
+    font-size: 16px;
+    color: #555;
+}
